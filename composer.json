@@ -1,0 +1,28 @@
+{
+    "name": "c33s/attachment-admin-bundle",
+    "type": "symfony-bundle",
+    "description": "Attach files to any (Propel) object using Symfony2",
+    "homepage": "https://github.com/vworldat/AttachmentAdminBundle",
+    "license": [
+        "MIT",
+        "GPL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "David",
+            "email": "office@web-emerge.com",
+            "homepage": "http://web-emerge.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "C33s\\AttachmentAdminBundle\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.3",
+        "cedriclombardot/admingenerator-generator-bundle": "~1.0",
+        "avocode/form-extensions-bundle": "~0.1"
+    }
+}
