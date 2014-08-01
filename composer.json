@@ -22,6 +22,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.3.3",
+        "c33s/attachment-bundle": "~0.4",
         "cedriclombardot/admingenerator-generator-bundle": "~1.0",
         "avocode/form-extensions-bundle": "~0.1"
     }
