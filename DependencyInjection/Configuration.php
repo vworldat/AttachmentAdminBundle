@@ -18,6 +18,8 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
+        $rootNode = $treeBuilder->root('c33s_attachment_admin');
+
         return $treeBuilder;
     }
 }
