@@ -6,6 +6,8 @@ params:
     bundle_name: AttachmentAdminBundle
     pk_requirement: ~
     fields:
+        id:
+            formType: hidden
         name:
             dbType: VARCHAR
     object_actions:
